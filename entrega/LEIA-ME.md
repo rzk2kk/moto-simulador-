@@ -1,9 +1,9 @@
-# MotoSimulador — pintura e faixa de autoescola v6
+# MotoSimulador — abrir como jogo v7
 
-Baixe `MotoSimulador_Unity_6000.3.27f2_v6.zip`, extraia para uma pasta nova, abra `ABRIR_PROJETO.bat` e aguarde a Unity preparar a cena. Clique em Play.
+Baixe o ZIP v7 e extraia tudo para uma pasta. Dê dois cliques em `ABRIR_JOGO.bat`.
 
-A moto recebe pintura preta com detalhes amarelos, duas faixas laterais amarelas e o texto “AUTOESCOLA” em preto. A cena continua com a câmera em primeira pessoa e as melhorias de física da v5.
+Na primeira vez, o arquivo usa a Unity 6000.3.27f2 instalada no computador para importar e compilar o projeto em segundo plano; isso pode levar alguns minutos. Depois ele abre `MotoSimulador.exe` diretamente, sem abrir o Editor.
 
-Os controles estão em `COMECE_AQUI.txt`. As cores e a faixa são aplicadas automaticamente, sem editar o modelo original. A posição visual das faixas e a pilotagem precisam ser confirmadas no Editor Unity do computador.
+O executável e o log de compilação ficam dentro de `MotoSimulador/Build`. Se a compilação falhar, veja `MotoSimulador/Build/primeira_compilacao.log`. Para editar ou abrir a cena na Unity, use `ABRIR_PROJETO.bat`.
 
-Modelo CG 160 original: rafaazx1000, CC-BY-4.0, https://sketchfab.com/3d-models/cg-160-0900747144084e538244f8c504161baa . Atribuição completa e alterações no projeto.
+A nuvem não tem o Unity Editor de Windows, então não consigo gerar nem testar um EXE pronto daqui. Os 30 testes do núcleo passaram, mas o build standalone ainda precisa rodar uma vez no PC.
