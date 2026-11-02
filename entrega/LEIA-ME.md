@@ -1,7 +1,7 @@
-# MotoSimulador — painel, câmera e comandos v14
+# MotoSimulador — cores, luzes e áudio v15
 
-Baixe o ZIP v14, extraia numa pasta nova e use `ABRIR_JOGO.bat`. Segure o botão direito do mouse e arraste para olhar ao redor. O painel permite ajustar altura e distância da câmera em primeira pessoa, e há botão no HUD e tecla `V` para alternar a perspectiva.
+Baixe o ZIP v15, extraia numa pasta nova e use `ABRIR_JOGO.bat`. A proposta de HUD foi mostrada em imagem; o HUD atual foi mantido para aguardar a aprovação do visual.
 
-O HUD mostra velocidade real, RPM, marcha e estado do motor, além de botões de ignição, farol, setas e alerta. Teclas: `I` ignição, `L` farol, `Z/X` setas, `H` alerta. A lanterna traseira acende mais forte ao frear. A manopla do acelerador e a chave de ignição animam, e a embreagem retorna mais rápido. A iluminação e a aparência precisam ser conferidas no Play da Unity.
+As lentes estão translúcidas e coloridas; farol, setas e lanterna têm emissão, a lanterna traseira intensifica com o freio. Motor/escapamento/suspensão ficam cinza, as molas douradas, e há som procedural de partida e motor enquanto ligado. A manopla gira no sentido corrigido e a embreagem responde mais rápido. Esses efeitos precisam ser conferidos no Play da Unity.
 
 Na primeira execução, `ABRIR_JOGO.bat` compila o jogo no computador e abre o executável; nas seguintes, abre diretamente.
