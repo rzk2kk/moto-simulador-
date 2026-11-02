@@ -1,0 +1,11 @@
+MotoSimulador Unity 6000.3.27f2 — versão 21
+
+O jogo agora inclui os recortes de partida, primeira aceleração, troca de marcha,
+redução de velocidade e buzina. O botão BUZINA aparece no painel e a tecla B também
+aciona a buzina. Os eventos de condução tocam os sons correspondentes; o som contínuo
+de fundo permanece enquanto o motor está ligado.
+
+Extraia o ZIP inteiro e execute ABRIR_JOGO.bat. A primeira compilação exige Unity
+6000.3.27f2 e pode demorar. Nesta sessão, a integridade do pacote, os cinco arquivos
+de áudio e a sintaxe C# foram conferidos; a cena ainda precisa ser testada no Editor
+Unity localmente.
