@@ -1,0 +1,10 @@
+MotoSimulador Unity 6000.3.27f2 — versão 23
+
+A embreagem agora exige controle manual, sem assistência automática de torque na saída.
+Soltar a embreagem sem acelerador pode apagar o motor; acelere e solte gradualmente.
+O painel exibe a porcentagem de embreagem puxada. A velocidade de liberação do comando
+foi aumentada para tornar a reação mais direta.
+
+Mantém os recortes de áudio e a buzina no painel/tecla B da versão 21.
+Extraia o ZIP e execute ABRIR_JOGO.bat. Os 32 testes de núcleo, a sintaxe C# e a
+integridade do ZIP passaram; a cena precisa ser testada na Unity localmente.
