@@ -1,11 +1,9 @@
-# MotoSimulador — ajuste de equilíbrio v4
+# MotoSimulador — contato das rodas v5
 
-Baixe `MotoSimulador_Unity_6000.3.27f2_v4.zip`, extraia tudo para uma pasta nova e abra `ABRIR_PROJETO.bat`. Aguarde a importação da Unity 6.3 LTS 6000.3.27f2; a configuração prepara a cena de teste automaticamente. Clique em Play.
+Baixe `MotoSimulador_Unity_6000.3.27f2_v5.zip`, extraia para uma pasta nova, abra `ABRIR_PROJETO.bat` e aguarde a Unity preparar a cena. Clique em Play.
 
-Corrigi o torque de equilíbrio, alinhei as rodas ao piso e passei a câmera para a primeira pessoa. O guidão e o garfo dianteiro agora seguem o esterço e o curso da roda. Esta versão cria uma cena nova com os ajustes.
+Mantive a correção de equilíbrio e a câmera de primeira pessoa. As rodas agora usam mais subpassos de física até 72 km/h; isso remove a queda de amostragem que acontecia perto de 18 km/h. A velocidade vertical também não altera mais os cálculos de direção. O HUD mostra o contato de cada roda.
 
-Controles: `I` liga o motor; segure `Shift` e aperte `Q` para engatar a primeira; segure `W` e solte `Shift` gradualmente; `A/D` esterçam, `Espaço` freia na frente, `S` freia atrás e `R` reinicia. Os controles também estão em `COMECE_AQUI.txt`.
+Os controles estão em `COMECE_AQUI.txt`. Se a moto deixar de acelerar, veja no HUD o RPM, a marcha e o contato da roda traseira. Os ajustes são provisórios e precisam de validação na Unity local; o Editor/PhysX não é executado nesta nuvem.
 
-Os 30 testes automatizados do núcleo C# passaram e a sintaxe dos 13 arquivos C# foi verificada. A pilotagem ainda precisa ser confirmada no Editor Unity; os parâmetros físicos são provisórios e não foram confirmados por especificação oficial Honda. Se estiver com o projeto v3 aberto, extraia a v4 numa pasta nova para comparar com segurança.
-
-Modelo CG 160 original: rafaazx1000, CC-BY-4.0, https://sketchfab.com/3d-models/cg-160-0900747144084e538244f8c504161baa . Atribuição completa e alterações no projeto.
+Se estiver testando a v4, extraia a v5 em uma pasta nova para criar a cena atualizada sem sobrescrever a anterior.
