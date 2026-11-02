@@ -1,9 +1,9 @@
-# MotoSimulador — contato das rodas v5
+# MotoSimulador — pintura e faixa de autoescola v6
 
-Baixe `MotoSimulador_Unity_6000.3.27f2_v5.zip`, extraia para uma pasta nova, abra `ABRIR_PROJETO.bat` e aguarde a Unity preparar a cena. Clique em Play.
+Baixe `MotoSimulador_Unity_6000.3.27f2_v6.zip`, extraia para uma pasta nova, abra `ABRIR_PROJETO.bat` e aguarde a Unity preparar a cena. Clique em Play.
 
-Mantive a correção de equilíbrio e a câmera de primeira pessoa. As rodas agora usam mais subpassos de física até 72 km/h; isso remove a queda de amostragem que acontecia perto de 18 km/h. A velocidade vertical também não altera mais os cálculos de direção. O HUD mostra o contato de cada roda.
+A moto recebe pintura preta com detalhes amarelos, duas faixas laterais amarelas e o texto “AUTOESCOLA” em preto. A cena continua com a câmera em primeira pessoa e as melhorias de física da v5.
 
-Os controles estão em `COMECE_AQUI.txt`. Se a moto deixar de acelerar, veja no HUD o RPM, a marcha e o contato da roda traseira. Os ajustes são provisórios e precisam de validação na Unity local; o Editor/PhysX não é executado nesta nuvem.
+Os controles estão em `COMECE_AQUI.txt`. As cores e a faixa são aplicadas automaticamente, sem editar o modelo original. A posição visual das faixas e a pilotagem precisam ser confirmadas no Editor Unity do computador.
 
-Se estiver testando a v4, extraia a v5 em uma pasta nova para criar a cena atualizada sem sobrescrever a anterior.
+Modelo CG 160 original: rafaazx1000, CC-BY-4.0, https://sketchfab.com/3d-models/cg-160-0900747144084e538244f8c504161baa . Atribuição completa e alterações no projeto.
