@@ -1,5 +1,5 @@
-# MotoSimulador — pista de teste e diagnóstico v18
+# MotoSimulador — pista contínua e correção de áudio v19
 
-O ZIP v18 inclui a pista contínua de mão única e um `ABRIR_JOGO.bat` com diagnóstico ampliado. Se a primeira compilação falhar, o BAT mostra as mensagens principais, tenta abrir o log no Bloco de Notas e mantém a janela aberta.
+O ZIP v19 corrige a compilação ativando o módulo de áudio da Unity necessário para `AudioSource` e `AudioClip`. Mantém a pista de teste contínua e o BAT que mostra erros, abre o log e mantém a janela aberta em caso de falha.
 
-Extraia o ZIP em uma pasta nova e abra `ABRIR_JOGO.bat`. A Unity ainda precisa compilar o executável no seu PC na primeira execução.
+Extraia o ZIP em uma pasta nova e execute `ABRIR_JOGO.bat`. A Unity recompila o projeto na primeira execução.
