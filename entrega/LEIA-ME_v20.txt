@@ -1,0 +1,15 @@
+MotoSimulador Unity 6000.3.27f2 — versão 20
+
+Mudanças desta versão:
+- Farol com feixe mais estreito, longo e ligeiramente elevado.
+- Luz traseira mais visível e luz vermelha dedicada quando o freio dianteiro ou traseiro é usado.
+- Entrada do freio traseiro (S) já aciona freio físico; pedal visual acompanha o comando.
+- Motor corrigido para cinza, molas traseiras vermelhas, chave preta com haste cinza e chaveiro/controle removido.
+- Animação da embreagem acelerada; velocidade de atuação física aumentada moderadamente.
+- Placa visual traseira criada no projeto.
+- Mantém pista e HUD das versões anteriores.
+
+ABRIR_JOGO.bat compila e abre o jogo no Windows com Unity 6000.3.27f2 instalada.
+A primeira compilação ainda precisa ser feita localmente. O Editor Unity e o Player não foram executados neste ambiente.
+Os 31 testes do núcleo C# passaram; eles não validam as cenas, luzes, posições do pedal/placa nem a física do Unity.
+Extraia o ZIP inteiro para uma pasta e execute ABRIR_JOGO.bat.
