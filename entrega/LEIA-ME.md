@@ -1,7 +1,5 @@
-# MotoSimulador — cores, luzes e áudio v15
+# MotoSimulador — interface aprovada v16
 
-Baixe o ZIP v15, extraia numa pasta nova e use `ABRIR_JOGO.bat`. A proposta de HUD foi mostrada em imagem; o HUD atual foi mantido para aguardar a aprovação do visual.
+O ZIP v16 aplica o HUD aprovado: painel compacto com estados do motor, marcha, RPM, farol, setas, alerta e comandos no alto à esquerda; velocímetro circular menor com velocidade real e limite no canto inferior direito; controles de câmera no alto à direita. Os botões de iluminação e ignição continuam funcionando.
 
-As lentes estão translúcidas e coloridas; farol, setas e lanterna têm emissão, a lanterna traseira intensifica com o freio. Motor/escapamento/suspensão ficam cinza, as molas douradas, e há som procedural de partida e motor enquanto ligado. A manopla gira no sentido corrigido e a embreagem responde mais rápido. Esses efeitos precisam ser conferidos no Play da Unity.
-
-Na primeira execução, `ABRIR_JOGO.bat` compila o jogo no computador e abre o executável; nas seguintes, abre diretamente.
+Baixe e extraia o ZIP v16 em uma pasta nova e abra `ABRIR_JOGO.bat`. A primeira execução compila o executável no computador; nas próximas, abre o jogo diretamente. A física e os gráficos ainda precisam de validação no Editor Unity local.
