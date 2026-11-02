@@ -1,0 +1,9 @@
+MotoSimulador Unity 6000.3.27f2 — versão 22
+
+Esta versão melhora a saída da moto em primeira marcha com uma assistência suave de
+tração em baixa velocidade, modulada pelo acelerador e pela embreagem e reduzida até
+18 km/h. Mantém os cinco efeitos de áudio e o botão/tecla da buzina da versão 21.
+
+Extraia o ZIP inteiro e execute ABRIR_JOGO.bat. A integridade do pacote, os 31 testes
+do núcleo e a sintaxe C# foram conferidos. A cena e a aceleração ainda precisam ser
+testadas no Editor Unity localmente.
