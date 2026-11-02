@@ -1,5 +1,7 @@
-# MotoSimulador — pista contínua e correção de áudio v19
+# MotoSimulador — correção de condução e peças originais v24
 
-O ZIP v19 corrige a compilação ativando o módulo de áudio da Unity necessário para `AudioSource` e `AudioClip`. Mantém a pista de teste contínua e o BAT que mostra erros, abre o log e mantém a janela aberta em caso de falha.
+A versão v24 mantém a ignição ligada até o comando de desligar, melhora a sincronização do som de aceleração e redução em qualquer marcha e restaura a chave do modelo original. Remove a placa e o pedal traseiro que haviam sido adicionados como peças provisórias.
 
-Extraia o ZIP em uma pasta nova e execute `ABRIR_JOGO.bat`. A Unity recompila o projeto na primeira execução.
+Extraia o ZIP em uma pasta nova e execute `ABRIR_JOGO.bat`. Na primeira execução, a Unity gera o projeto e compila o executável.
+
+Verificações automáticas: 32 testes de física do motor e análise sintática C# sem erros. A cena ainda precisa ser executada na Unity local para confirmar o comportamento final do `WheelCollider` e a aparência do modelo.
