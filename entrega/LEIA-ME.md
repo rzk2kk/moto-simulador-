@@ -1,11 +1,9 @@
-# MotoSimulador — entrega Unity 6.3 LTS
+# MotoSimulador — teste físico v3
 
-**Versão atual: MotoSimulador_Unity_6000.3.27f2_v2.zip.**
+Baixe `MotoSimulador_Unity_6000.3.27f2_v3.zip`, extraia tudo para uma pasta nova e abra `ABRIR_PROJETO.bat`. Aguarde a importação da Unity 6.3 LTS 6000.3.27f2; a configuração prepara a cena de teste automaticamente. Clique em Play.
 
-A revisão corrige o erro `Cannot create a new scene additively with an untitled scene unsaved`: salva a cena sem nome antes de criar a inspeção e preserva o conteúdo em Generated/Recuperadas.
+Controles: `I` liga o motor; segure `Shift` e aperte `Q` para engatar a primeira; segure `W` e solte `Shift` gradualmente; `A/D` esterçam, `Espaço` freia na frente, `S` freia atrás e `R` reinicia.
 
-Baixe o ZIP v2, extraia em uma pasta nova e abra ABRIR_PROJETO.bat. A preparação da URP 17.3.0 e da cena de inspeção é automática. A instalação esperada é Unity 6000.3.27f2. A revisão ainda precisa ser aberta no Editor do usuário para confirmar o resultado.
+A v3 prepara rodas físicas, massa da moto e do piloto, transmissão e uma pista plana de teste. Os 30 testes automatizados do núcleo C# passaram e a sintaxe dos 12 arquivos C# foi verificada. A cena ainda precisa ser aberta e testada no Editor Unity do computador do usuário; essa verificação não foi executada na nuvem. A escala e os parâmetros físicos são provisórios, não confirmados por especificação oficial Honda.
 
-Esta é uma versão de inspeção, ainda sem pilotagem validada. O núcleo C# passou em 23 cenários; esses testes não executam o Editor Unity. O arquivo anterior é histórico.
-
-Modelo original declarado: rafaazx1000, CC-BY-4.0, https://sketchfab.com/3d-models/cg-160-0900747144084e538244f8c504161baa . Modificações: separação de peças, nomes/hierarquia, materiais demonstrativos e exportação da pose neutra. Atribuição completa no projeto.
+Modelo CG 160 original: rafaazx1000, CC-BY-4.0, https://sketchfab.com/3d-models/cg-160-0900747144084e538244f8c504161baa . Atribuição completa e alterações no projeto.
