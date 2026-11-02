@@ -1,5 +1,5 @@
-# MotoSimulador — pista contínua v17
+# MotoSimulador — pista de teste e diagnóstico v18
 
-O ZIP v17 inclui a pista de teste de mão única na ordem: início, slalom reto com cones alinhados, equilíbrio estreito, oito, frenagem, rampa atravessando a pista, curva controlada e chegada. Também mantém o HUD aprovado da v16.
+O ZIP v18 inclui a pista contínua de mão única e um `ABRIR_JOGO.bat` com diagnóstico ampliado. Se a primeira compilação falhar, o BAT mostra as mensagens principais, tenta abrir o log no Bloco de Notas e mantém a janela aberta.
 
-Baixe e extraia o ZIP em uma pasta nova e abra `ABRIR_JOGO.bat`. A Unity cria a cena de teste na primeira abertura. A pista ainda precisa de validação visual e física no Editor Unity local.
+Extraia o ZIP em uma pasta nova e abra `ABRIR_JOGO.bat`. A Unity ainda precisa compilar o executável no seu PC na primeira execução.
