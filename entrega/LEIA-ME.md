@@ -1,7 +1,7 @@
-# MotoSimulador v30 — garagem com três motos
+# MotoSimulador v31 — garagem com três motos
 
-[Baixar o projeto Unity v30](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v30.zip)
+[Baixar o projeto Unity v31](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v31.zip)
 
-Extraia o ZIP em uma pasta nova e execute `ABRIR_JOGO.bat`. O projeto usa Unity 6000.3.27f2 e abre na garagem, com Honda CG 160, Honda CB 300 Twister e a Africa Twin adicionada ao projeto. Selecione uma moto e use **TESTAR** para abrir sua cena de pilotagem.
+Extraia o ZIP em uma pasta nova e execute `ABRIR_JOGO.bat`. Na primeira vez, o Unity prepara a garagem e as cenas de pilotagem; depois o jogo abre direto na garagem. Escolha entre Honda CG 160, Honda CB 300 Twister e Honda Africa Twin e use **TESTAR** para pilotar.
 
-A Africa Twin inclui um perfil físico inicial provisório; seus parâmetros ainda precisam ser conferidos na Unity. As verificações do núcleo passaram e o ZIP foi validado. A abertura e a pilotagem não foram testadas no Unity Editor deste ambiente.
+O atalho de compilação inclui a garagem e as três cenas no executável. A tela de carregamento tem barra vermelha dinâmica e dica; a arte de fundo original será integrada em uma atualização futura. O perfil físico da Africa Twin é provisório. As verificações de núcleo e sintaxe passaram; a abertura e a pilotagem ainda precisam de teste no Unity Editor.
