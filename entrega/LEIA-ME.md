@@ -1,7 +1,5 @@
-# MotoSimulador — correção de condução e peças originais v24
+# MotoSimulador v26 — circuito de autoescola em 3D
 
-A versão v24 mantém a ignição ligada até o comando de desligar, melhora a sincronização do som de aceleração e redução em qualquer marcha e restaura a chave do modelo original. Remove a placa e o pedal traseiro que haviam sido adicionados como peças provisórias.
+Baixe `MotoSimulador_Unity_6000.3.27f2_v26.zip`, extraia em uma pasta nova e execute `ABRIR_JOGO.bat`. A pista Blender, texturas e parâmetros estão integrados ao projeto Unity. A primeira abertura prepara e compila o jogo.
 
-Extraia o ZIP em uma pasta nova e execute `ABRIR_JOGO.bat`. Na primeira execução, a Unity gera o projeto e compila o executável.
-
-Verificações automáticas: 32 testes de física do motor e análise sintática C# sem erros. A cena ainda precisa ser executada na Unity local para confirmar o comportamento final do `WheelCollider` e a aparência do modelo.
+Controles de primeira pessoa: setas esquerda/direita ou botão direito do mouse + arrastar para olhar; Home centraliza. A direção tem maior curso em baixa velocidade.
