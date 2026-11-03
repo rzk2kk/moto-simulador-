@@ -1,11 +1,7 @@
-# MotoSimulador v29 — correção de compilação URP
+# MotoSimulador v30 — garagem com três motos
 
-[Baixar o projeto Unity v29](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v29.zip)
+[Baixar o projeto Unity v30](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v30.zip)
 
-Extraia o ZIP em uma pasta nova e execute `ABRIR_JOGO.bat`. O pacote usa Unity 6000.3.27f2 e inclui a pista Blender, texturas e configuração da moto.
+Extraia o ZIP em uma pasta nova e execute `ABRIR_JOGO.bat`. O projeto usa Unity 6000.3.27f2 e abre na garagem, com Honda CG 160, Honda CB 300 Twister e a Africa Twin adicionada ao projeto. Selecione uma moto e use **TESTAR** para abrir sua cena de pilotagem.
 
-- Remove a configuração de duas propriedades URP incompatíveis com Unity 6000.3.27f2, que causavam erro de compilação CS0200 e CS1061.
-- Mantém a verificação automática do sentido de aceleração no primeiro arranque e a pose da roda calculada pelo WheelCollider.
-- Mantém o farol reforçado e os cortes por marcha em 20, 40, 80, 110 e 160 km/h.
-
-Os testes de núcleo e a verificação sintática C# passaram. A compilação no Editor local precisa ser confirmada ao abrir o pacote.
+A Africa Twin inclui um perfil físico inicial provisório; seus parâmetros ainda precisam ser conferidos na Unity. As verificações do núcleo passaram e o ZIP foi validado. A abertura e a pilotagem não foram testadas no Unity Editor deste ambiente.
