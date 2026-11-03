@@ -1,12 +1,11 @@
-# MotoSimulador v28 — correção do sentido e do farol
+# MotoSimulador v29 — correção de compilação URP
 
-[Baixar o projeto Unity v28](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v28.zip)
+[Baixar o projeto Unity v29](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v29.zip)
 
 Extraia o ZIP em uma pasta nova e execute `ABRIR_JOGO.bat`. O pacote usa Unity 6000.3.27f2 e inclui a pista Blender, texturas e configuração da moto.
 
-- Confere o sentido de aceleração no primeiro arranque e inverte o torque automaticamente se o modelo importado estiver com o eixo invertido.
-- Restaura a pose completa calculada pelo WheelCollider para evitar desalinhamento visual da roda.
-- Reforça o farol e configura o URP para renderizar luzes adicionais por pixel.
-- Mantém o corte por marcha em 20, 40, 80, 110 e 160 km/h.
+- Remove a configuração de duas propriedades URP incompatíveis com Unity 6000.3.27f2, que causavam erro de compilação CS0200 e CS1061.
+- Mantém a verificação automática do sentido de aceleração no primeiro arranque e a pose da roda calculada pelo WheelCollider.
+- Mantém o farol reforçado e os cortes por marcha em 20, 40, 80, 110 e 160 km/h.
 
-Os testes de núcleo e a verificação sintática C# passaram. A cena ainda precisa ser conferida no Play Mode da Unity local.
+Os testes de núcleo e a verificação sintática C# passaram. A compilação no Editor local precisa ser confirmada ao abrir o pacote.
