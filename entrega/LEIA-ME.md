@@ -1,13 +1,12 @@
-# MotoSimulador v27 — corte por marcha e ajustes físicos
+# MotoSimulador v28 — correção do sentido e do farol
 
-[Baixar o projeto Unity v27](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v27.zip)
+[Baixar o projeto Unity v28](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v28.zip)
 
-Extraia o ZIP em uma pasta nova e execute `ABRIR_JOGO.bat`. O pacote inclui a pista Blender, texturas e configuração para Unity 6000.3.27f2. A primeira abertura prepara e compila o jogo.
+Extraia o ZIP em uma pasta nova e execute `ABRIR_JOGO.bat`. O pacote usa Unity 6000.3.27f2 e inclui a pista Blender, texturas e configuração da moto.
 
-- Corte de giro por marcha: 20, 40, 80, 110 e 160 km/h; limite total de 160 km/h.
-- Direção dianteira corrigida para girar no eixo vertical; farol direcionado à pista.
-- Rodas visuais acompanham o RPM e param com a moto.
-- Colisores no terreno, asfalto, acostamentos, faixa de equilíbrio, cones, portais, balizadores e placas; cones podem tombar ao serem atingidos.
-- Velocímetro acompanha a escala da marcha selecionada.
+- Confere o sentido de aceleração no primeiro arranque e inverte o torque automaticamente se o modelo importado estiver com o eixo invertido.
+- Restaura a pose completa calculada pelo WheelCollider para evitar desalinhamento visual da roda.
+- Reforça o farol e configura o URP para renderizar luzes adicionais por pixel.
+- Mantém o corte por marcha em 20, 40, 80, 110 e 160 km/h.
 
 Os testes de núcleo e a verificação sintática C# passaram. A cena ainda precisa ser conferida no Play Mode da Unity local.
