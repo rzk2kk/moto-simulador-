@@ -1,9 +1,7 @@
-# MotoSimulador v36 — pista na escala correta e garagem completa
+# MotoSimulador v37 — tela inicial
 
-[Baixar o projeto Unity v36](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v36.zip)
+[Baixar o projeto Unity v37](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v37.zip)
 
-A pista foi ampliada 3x na horizontal sem aumentar a altura do terreno nem o tamanho dos cones, placas e demais objetos. Os obstáculos foram espaçados ao longo do percurso, mantendo a escala normal. Isso evita colisores gigantes e mantém as rodas apoiadas na superfície.
+Ao abrir o jogo, a garagem aparece como fundo da tela inicial, com **Continuar**, **Novo jogo**, **Garagem**, **Configurações** e **Sair**. Continuar abre a última moto pilotada; Novo jogo inicia pela CG 160; Garagem abre a seleção das três motos. Configurações permite ajustar volume, tela cheia e qualidade gráfica. O botão de retorno durante a pilotagem abre diretamente a garagem.
 
-Corrigi a ativação das motos na garagem: a CG 160, a CB 300 e a Africa Twin voltam a aparecer ao selecionar cada uma. Ao preparar pela primeira vez, a versão recria cenas geradas por versões anteriores para aplicar estas correções.
-
-As 33 verificações do núcleo e a análise sintática passaram. A abertura, compilação e pilotagem ainda precisam ser conferidas no Unity Editor.
+A pista segue ampliada na horizontal, mantendo alturas e tamanhos dos obstáculos. As 33 verificações do núcleo e a análise sintática passaram. A abertura, compilação e navegação ainda precisam ser conferidas no Unity Editor.
