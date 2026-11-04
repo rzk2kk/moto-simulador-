@@ -1,7 +1,9 @@
-# MotoSimulador v34 — rotação de garagem e retorno
+# MotoSimulador v35 — comandos, cores e correções de pilotagem
 
-[Baixar o projeto Unity v34](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v34.zip)
+[Baixar o projeto Unity v35](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v35.zip)
 
-Na garagem, a moto selecionada gira continuamente em uma volta completa a cada 10 segundos. Nas cenas de pilotagem, use **VOLTAR À GARAGEM** no topo da tela para retornar e escolher outra moto.
+Esta versão corrige o eixo de esterço da CG 160 e da CB 300, eleva o limite da primeira marcha da CG 160 e CB 300, reforça a assistência de equilíbrio da CB, restaura as texturas da Africa Twin, centraliza o giro das motos na garagem e amplia a pista de teste para três vezes o tamanho anterior.
 
-O projeto inclui a Honda CG 160, a Honda CB 300 Twister e a Africa Twin. A preparação verifica as cenas necessárias para o executável. O fundo artístico original da tela de carregamento ainda será adicionado depois. As 33 verificações do núcleo e a análise sintática passaram; a abertura, compilação e pilotagem ainda precisam de teste no Unity Editor.
+Na pista, os botões na tela permitem acelerar, acionar a embreagem, usar os freios dianteiro e traseiro e virar. O painel também oferece farol, lanterna de freio, setas, alerta, buzina, velocímetro e informações do motor. Os comandos de teclado continuam disponíveis.
+
+As 33 verificações do núcleo e a análise sintática passaram. A abertura do projeto, compilação e pilotagem ainda precisam ser conferidas no Unity Editor.
