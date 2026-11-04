@@ -1,9 +1,9 @@
-# MotoSimulador v35 — comandos, cores e correções de pilotagem
+# MotoSimulador v36 — pista na escala correta e garagem completa
 
-[Baixar o projeto Unity v35](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v35.zip)
+[Baixar o projeto Unity v36](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v36.zip)
 
-Esta versão corrige o eixo de esterço da CG 160 e da CB 300, eleva o limite da primeira marcha da CG 160 e CB 300, reforça a assistência de equilíbrio da CB, restaura as texturas da Africa Twin, centraliza o giro das motos na garagem e amplia a pista de teste para três vezes o tamanho anterior.
+A pista foi ampliada 3x na horizontal sem aumentar a altura do terreno nem o tamanho dos cones, placas e demais objetos. Os obstáculos foram espaçados ao longo do percurso, mantendo a escala normal. Isso evita colisores gigantes e mantém as rodas apoiadas na superfície.
 
-Na pista, os botões na tela permitem acelerar, acionar a embreagem, usar os freios dianteiro e traseiro e virar. O painel também oferece farol, lanterna de freio, setas, alerta, buzina, velocímetro e informações do motor. Os comandos de teclado continuam disponíveis.
+Corrigi a ativação das motos na garagem: a CG 160, a CB 300 e a Africa Twin voltam a aparecer ao selecionar cada uma. Ao preparar pela primeira vez, a versão recria cenas geradas por versões anteriores para aplicar estas correções.
 
-As 33 verificações do núcleo e a análise sintática passaram. A abertura do projeto, compilação e pilotagem ainda precisam ser conferidas no Unity Editor.
+As 33 verificações do núcleo e a análise sintática passaram. A abertura, compilação e pilotagem ainda precisam ser conferidas no Unity Editor.
