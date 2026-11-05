@@ -1,9 +1,11 @@
-# MotoSimulador v44 — lobby, garagem e autoescola
+# MotoSimulador v47 — carreiras e missões
 
-[Baixar o projeto Unity v44 (ZIP direto)](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v44.zip)
+[Baixar o projeto Unity v47 (ZIP direto)](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v47.zip)
 
-O lobby mostra a etapa atual da carreira. A garagem ganhou informações de visualização e controles para pausar ou girar manualmente a moto. A autoescola tem doze momentos: chegada, dez aulas e preparação para a prova. Cada questão é ensinada em sua aula; a prova agora tem dez situações, explica as respostas, exige oito acertos e não tem limite de tempo. O progresso das aulas é salvo.
+Esta versão acrescenta três espaços independentes de carreira após **NOVO JOGO**, com continuação, exclusão confirmada e salvamento automático. O progresso anterior é migrado para o primeiro espaço. Dinheiro, motos compradas, pintura, aulas, provas, distância e missões são salvos em cada carreira.
 
-A troca de idioma deixou de reproduzir voz. A história mostra legendas em português, inglês e espanhol e carrega automaticamente áudios offline do ElevenLabs quando disponíveis. **Os áudios não estão neste ZIP**, pois ainda não há chave da API nem uma voz selecionada. O projeto inclui `Tools/generate_elevenlabs_voice.py` para gerá-los depois sem incluir a chave no jogo.
+Há 15 missões de dificuldade crescente com recompensas únicas. Elas cobrem a autoescola, pilotagem, farol, setas, frenagem, segurança e compras. A opção **MISSÕES** mostra objetivos e progresso. O modo **TESTAR** permite pilotar motos bloqueadas, mas não rende créditos nem avança missões.
 
-Validação: 35 testes do núcleo, checagem sintática de 30 arquivos C#, conteúdo das dez aulas e questões em três idiomas, integridade do ZIP e execução do gerador em modo de verificação. O Unity Editor não está disponível neste ambiente; ainda é preciso abrir o projeto e conferir as telas e a pilotagem no jogo.
+O pacote também inclui as melhorias recentes na autoescola, cenários 3D, piloto e áreas de teste. Extraia o ZIP e abra `ABRIR_JOGO.bat` no Windows; o Unity 6000.3.27f2 é necessário para a primeira compilação. A descrição completa e as atribuições estão em `MotoSimulador/LEIA-ME.md` dentro do ZIP.
+
+Validação local: 39 testes do núcleo passaram; a integridade do ZIP e o isolamento dos espaços de carreira foram verificados. O Unity Editor não estava disponível neste ambiente, então telas, física e executável ainda precisam de teste dentro do jogo.
