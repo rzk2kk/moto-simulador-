@@ -1,15 +1,11 @@
-# MotoSimulador v49 — auditoria das motos e iluminação
+# MotoSimulador v50 — carreira, personagens e autoescola
 
-[Baixar o projeto Unity v49 (ZIP direto)](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v49.zip)
+[Baixar o projeto Unity v50 (ZIP direto)](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v50.zip)
 
-A v49 nivela o contato dos pneus da Street na cena de pilotagem, melhora o movimento das peças baixas do garfo da Adventure e corrige os materiais e caminhos das suas texturas. As pistas ganharam sol quente, céu, nuvens, faixas visuais discretas de luz e sombras mais longas; a garagem recebeu luzes de destaque. A auditoria com medições e pendências está em `MotoSimulador/Documentation/AUDITORIA_MOTOS_v49.md` dentro do ZIP.
+Ao criar uma carreira, o jogador escolhe nome e personagem homem ou mulher. A escolha, a data de início, o XP, o progresso e a CNH ficam no espaço de salvamento correspondente. Há seis espaços, 21 missões com recompensas e XP também por quilômetro pilotado. O perfil do lobby mostra nome, nível e XP. A sala de aula tem colegas articulados; a prova prática aprovada apresenta a habilitação com nome e datas, enquanto o instrutor entra na cena. Os braços e as mãos em primeira pessoa usam malhas articuladas dos personagens Rocketbox.
 
-A v48 habilitou o módulo Animation do Unity, necessário para compilar as cenas da história e o piloto. Ela corrigiu o erro CS1069 de `AnimationClip` registrado no log da v47. Extraia este ZIP em uma pasta nova para que o Unity leia o manifesto atualizado.
+O lobby recebeu botões com ícones e animação de foco. As configurações agora incluem volume da voz, sombras e sensibilidade da câmera. A geração de música pela API do ElevenLabs exigiu plano pago e não está neste pacote. A voz gravada da história continua com falas genéricas; o instrutor usa o nome escolhido no texto da cena.
 
-A v47 acrescentou três espaços independentes de carreira após **NOVO JOGO**, com continuação, exclusão confirmada e salvamento automático. O progresso anterior é migrado para o primeiro espaço. Dinheiro, motos compradas, pintura, aulas, provas, distância e missões são salvos em cada carreira.
+Extraia o ZIP em uma pasta nova no Windows e abra `ABRIR_JOGO.bat`. O Unity 6000.3.27f2 é necessário para a primeira compilação. A documentação e as licenças estão dentro do ZIP.
 
-Há 15 missões de dificuldade crescente com recompensas únicas. Elas cobrem a autoescola, pilotagem, farol, setas, frenagem, segurança e compras. A opção **MISSÕES** mostra objetivos e progresso. O modo **TESTAR** permite pilotar motos bloqueadas, mas não rende créditos nem avança missões.
-
-O pacote também inclui as melhorias recentes na autoescola, cenários 3D, piloto e áreas de teste. Abra `ABRIR_JOGO.bat` no Windows; o Unity 6000.3.27f2 é necessário para a primeira compilação. A descrição completa e as atribuições estão em `MotoSimulador/LEIA-ME.md` dentro do ZIP.
-
-Validação local: 39 testes do núcleo passaram, 37 arquivos C# passaram na checagem de sintaxe e a integridade do ZIP foi verificada. O Unity Editor não estava disponível neste ambiente, então compilação, iluminação, física e executável ainda precisam de teste dentro do jogo.
+Validação: 40 testes do núcleo passaram, 39 arquivos C# passaram na checagem de sintaxe, quatro FBX de personagem foram inspecionados no Blender e o ZIP passou na verificação de integridade. O Editor Unity não estava disponível neste ambiente; ainda é preciso testar no jogo a pose do piloto, as animações, a física, o enquadramento das cenas e a compilação Windows.
