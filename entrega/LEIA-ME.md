@@ -1,9 +1,9 @@
-# MotoSimulador v43 — direção das outras motos
+# MotoSimulador v44 — lobby, garagem e autoescola
 
-[Baixar o projeto Unity v43 (ZIP direto)](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v43.zip)
+[Baixar o projeto Unity v44 (ZIP direto)](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v44.zip)
 
-Esta versão aplica à Rota 300 Street e à Rota 1000 Adventure o alinhamento entre o WheelCollider, o guidão, o garfo e a roda dianteira. Na Street, as peças inferiores do garfo agora acompanham o pivô de suspensão que estava vazio. Na Adventure, a preparação cria os pivôs de direção e suspensão, liga as peças do garfo e do guidão e prende os discos dianteiros ao eixo da roda. As cenas são recriadas na primeira abertura para receber as alterações.
+O lobby mostra a etapa atual da carreira. A garagem ganhou informações de visualização e controles para pausar ou girar manualmente a moto. A autoescola tem doze momentos: chegada, dez aulas e preparação para a prova. Cada questão é ensinada em sua aula; a prova agora tem dez situações, explica as respostas, exige oito acertos e não tem limite de tempo. O progresso das aulas é salvo.
 
-A arrancada das duas motos foi verificada com seus perfis provisórios de massa, câmbio e aderência. A v42 já corrigia a orientação física do asfalto e a arrancada da Start. As demais funções da garagem, da autoescola e da pilotagem permanecem no pacote.
+A troca de idioma deixou de reproduzir voz. A história mostra legendas em português, inglês e espanhol e carrega automaticamente áudios offline do ElevenLabs quando disponíveis. **Os áudios não estão neste ZIP**, pois ainda não há chave da API nem uma voz selecionada. O projeto inclui `Tools/generate_elevenlabs_voice.py` para gerá-los depois sem incluir a chave no jogo.
 
-Validação: 35 testes do núcleo aprovados, análise sintática de 30 arquivos C# sem erros, integridade do ZIP v43 e comparação de conteúdo com a v42. O Unity Editor não está disponível neste ambiente; ainda é necessário testar no jogo o contato das rodas, a aceleração e o movimento visual do conjunto dianteiro.
+Validação: 35 testes do núcleo, checagem sintática de 30 arquivos C#, conteúdo das dez aulas e questões em três idiomas, integridade do ZIP e execução do gerador em modo de verificação. O Unity Editor não está disponível neste ambiente; ainda é preciso abrir o projeto e conferir as telas e a pilotagem no jogo.
