@@ -1,11 +1,9 @@
-# MotoSimulador v50 — carreira, personagens e autoescola
+# MotoSimulador v51 — correção da criação da garagem
 
-[Baixar o projeto Unity v50 (ZIP direto)](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v50.zip)
+[Baixar o projeto Unity v51 (ZIP direto)](https://raw.githubusercontent.com/rzk2kk/moto-simulador-/entrega-unity-6000-3/entrega/MotoSimulador_Unity_6000.3.27f2_v51.zip)
 
-Ao criar uma carreira, o jogador escolhe nome e personagem homem ou mulher. A escolha, a data de início, o XP, o progresso e a CNH ficam no espaço de salvamento correspondente. Há seis espaços, 21 missões com recompensas e XP também por quilômetro pilotado. O perfil do lobby mostra nome, nível e XP. A sala de aula tem colegas articulados; a prova prática aprovada apresenta a habilitação com nome e datas, enquanto o instrutor entra na cena. Os braços e as mãos em primeira pessoa usam malhas articuladas dos personagens Rocketbox.
+O log da v50 mostrou que o FBX de um colega já continha um componente `Animation`. A criação da sala tentou adicionar outro e parou com `NullReferenceException`; por isso a garagem não foi gerada e o executável não pôde ser compilado. A v51 reutiliza o componente existente, evita clipes duplicados e inicia a animação quando o jogo roda. A cena é regenerada na primeira abertura.
 
-O lobby recebeu botões com ícones e animação de foco. As configurações agora incluem volume da voz, sombras e sensibilidade da câmera. A geração de música pela API do ElevenLabs exigiu plano pago e não está neste pacote. A voz gravada da história continua com falas genéricas; o instrutor usa o nome escolhido no texto da cena.
+Extraia este ZIP inteiro em uma **pasta nova** no Windows e abra `ABRIR_JOGO.bat`. O Unity 6000.3.27f2 é necessário para a primeira compilação. O conteúdo da v50, incluindo personagens, carreiras, XP e missões, está preservado.
 
-Extraia o ZIP em uma pasta nova no Windows e abra `ABRIR_JOGO.bat`. O Unity 6000.3.27f2 é necessário para a primeira compilação. A documentação e as licenças estão dentro do ZIP.
-
-Validação: 40 testes do núcleo passaram, 39 arquivos C# passaram na checagem de sintaxe, quatro FBX de personagem foram inspecionados no Blender e o ZIP passou na verificação de integridade. O Editor Unity não estava disponível neste ambiente; ainda é preciso testar no jogo a pose do piloto, as animações, a física, o enquadramento das cenas e a compilação Windows.
+Validação local: 40 testes do núcleo, 39 arquivos C# na checagem de sintaxe, currículo e integridade do ZIP passaram. O Editor Unity não está disponível neste ambiente; a compilação Windows precisa ser confirmada no seu computador.
